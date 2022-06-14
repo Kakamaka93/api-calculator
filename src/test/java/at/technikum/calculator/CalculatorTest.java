@@ -18,4 +18,9 @@ class CalculatorTest {
     void sum() {
         assertEquals(5, calculator.sum(3,2));
     }
+
+    @Test
+    void multiply(){
+        assertEquals(6, calculator.multiply(3,2));
+    }
 }
